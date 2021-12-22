@@ -107,7 +107,25 @@ body{
 
         }
 
-    
-
      
+}
+
+@media (min-width : 650px) {
+     
+    body{
+        
+        background-image: url(images/pattern-background-desktop.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size:contain;
+       
+        #content-box{
+            max-width: 350px;
+            box-shadow: 0px 10px 10px 0px hsla(245, 75%, 52%, 0.178);
+            
+            button:hover, a:hover{
+                cursor:pointer;
+            }
+        }
+    }
 }
