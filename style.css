@@ -39,7 +39,7 @@ body a {
   color: #3829e0;
 }
 
-body #content-box {
+body main {
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,24 +55,24 @@ body #content-box {
   border-radius: 30px 30px 30px 30px;
 }
 
-body #content-box img {
+body main img {
   border-radius: 30px 30px 0px 0px;
   width: 100%;
 }
 
-body #content-box h1 {
+body main h1 {
   margin: 30px 0px 20px 0px;
   text-align: center;
   font-size: 1.5em;
 }
 
-body #content-box p {
+body main p {
   width: 90%;
   text-align: center;
   margin: 0px 0px 20px 0px;
 }
 
-body #content-box #annual-plan {
+body main #annual-plan {
   background-color: #f5f7ff;
   width: 90%;
   padding: 10px 10px;
@@ -87,20 +87,20 @@ body #content-box #annual-plan {
   justify-items: center;
 }
 
-body #content-box #annual-plan p {
+body main #annual-plan p {
   margin: 0px 0px 0px 0px;
 }
 
-body #content-box #annual-plan p .mini-header {
+body main #annual-plan p .mini-header {
   font-weight: 700;
   color: #1f2f56;
 }
 
-body #content-box #annual-plan a {
+body main #annual-plan a {
   font-weight: 700;
 }
 
-body #content-box button {
+body main button {
   width: 80%;
   border-radius: 10px;
   height: 40px;
@@ -108,7 +108,7 @@ body #content-box button {
   font-weight: 700;
 }
 
-body #content-box #payment-button {
+body main #payment-button {
   color: white;
   background-color: #3829e0;
   margin-bottom: 10px;
@@ -116,7 +116,7 @@ body #content-box #payment-button {
           box-shadow: 0px 10px 5px 2px rgba(56, 41, 224, 0.178);
 }
 
-body #content-box #cancel-button {
+body main #cancel-button {
   color: #7280a7;
   background-color: transparent;
   margin-bottom: 20px;
@@ -129,12 +129,12 @@ body #content-box #cancel-button {
     background-repeat: no-repeat;
     background-size: contain;
   }
-  body #content-box {
+  body main {
     max-width: 350px;
     -webkit-box-shadow: 0px 10px 10px 0px rgba(56, 41, 224, 0.178);
             box-shadow: 0px 10px 10px 0px rgba(56, 41, 224, 0.178);
   }
-  body #content-box button:hover, body #content-box a:hover {
+  body main button:hover, body main a:hover {
     cursor: pointer;
   }
 }
